@@ -1,0 +1,139 @@
+body{font-family: Arial, Helvetica, sans-serif;}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.welcome-container{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    background-color: #1E232C;
+    color: #fff;
+    border: 1px solid #1E232C;
+    width: 100%;
+    margin: 10px 0;
+    padding: 18px 0;
+    border-radius: 6px;
+}
+.register{
+    color: #1E232C;
+    background-color: transparent;
+    border: 1px solid #1E232C;
+    padding: 17px 0 !important;
+}
+.guest{
+    text-decoration: underline;
+    margin-top: 60px;
+    text-align: center;
+    color: #35C2C1;
+    font: 600 0.81rem  sans-serif;
+}
+.guest span{
+    text-decoration: underline;
+    margin: 0 3px;
+    color: #1E232C !important;
+}
+.login-content{
+    padding-right:15px;
+    margin-top: 20px;
+}
+.login-content p{color: #8391A1;}
+h2{
+    color: #1E232C;
+    font-size: 1.88rem;
+}
+.login-input{
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input{
+    border-radius: 8px;
+    padding: 17px 13px;
+    background-color: #F7F8F9;
+    border: 1px solid #DADADA;
+}
+#back{margin: 20px 0;}
+#forgot{
+    margin: 7px 0;
+    border: none;
+    background: none;
+    float: right;
+    color: #6A707C;
+    font:500 0.75rem sans-serif;
+}
+.login-login{margin: 50px 0;}
+.login-with {text-align: center;}
+.login-with p{
+    color: #6A707C;
+    font: 500 0.81rem sans-serif;
+}
+.login-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.login-button{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.login-button:hover {background-color: #f0f0f0;}
+.login-button svg {
+    width: 24px;
+    height: 24px;
+}
+.login-with-p{ margin: 40px 0;}
+.login-with-p-extra{
+    margin: auto;
+    position: relative;
+    z-index: 999;
+    background-color: #fff !important;
+    padding: 10px;
+    width: 100px;
+    height: 30px;
+}
+.login-with-p hr{margin-top: -20px;}
+.true{
+    text-align: center;
+    margin: 140px 0;
+}
+.changed-button{ margin: 30px 0;}
+.input-wrong{
+    display: flex; 
+    flex-direction: column;
+}
+.wrong-email{
+    font: 500 0.7rem sans-serif;
+    color: red;
+    margin: 5px 0 0 5px;
+}
+.wrong-password{
+    font: 500 0.7rem sans-serif;
+    color: red;
+    margin: 5px 0 0 5px;
+}
+.wrong-confirm{
+    font: 500 0.7rem sans-serif;
+    color: red;
+    margin: 5px 0 0 5px;
+}
+.wrong-username{
+    font: 500 0.7rem sans-serif;
+    color: red;
+    margin: 5px 0 0 5px;
+}
+.none{display: none;}
